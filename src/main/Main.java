@@ -1,5 +1,7 @@
 package main;
 
+import calc.Calculator;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -16,7 +18,10 @@ public class Main {
 		System.out.println("팀원 코드1 입니다.");
 		System.out.println("팀원 코드2 입니다.");
 		System.out.println("팀원 코드3 입니다.");
-
+		
+		Calculator cal =new Calculator();
+		int addresult =cal.add(1, 2);
+System.out.println(addresult);
 	}
 
 }
