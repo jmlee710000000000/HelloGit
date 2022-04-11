@@ -22,6 +22,9 @@ public class Main {
 		Calculator cal =new Calculator();
 		int addresult =cal.add(1, 2);
 System.out.println(addresult);
+
+System.out.println("집에서 작업시작");
+System.out.println("집에서 작업끝");
 	}
 
 }
